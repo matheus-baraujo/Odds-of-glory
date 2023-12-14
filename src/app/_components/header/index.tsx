@@ -4,7 +4,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faYoutube, faDeezer, faSpotify } from '@fortawesome/free-brands-svg-icons';
-import { faRecordVinyl } from "@fortawesome/free-solid-svg-icons";
 
 import Link from 'next/link';
 
@@ -23,16 +22,6 @@ const StyledMenu = styled.div`
         flex-wrap: wrap;
         gap: 15px;
         align-items: center;
-
-        .brand{
-            color: #ff71a2;
-
-            &:hover{
-                color: white;
-            }
-        }
-
-
     }
 
     a {
@@ -40,6 +29,7 @@ const StyledMenu = styled.div`
         font-size: 1.5rem;
         text-decoration: none;
         transition: ease-in-out 0.3s;
+        padding: 0% 5px;
 
         &:hover {
             color: white;
@@ -86,7 +76,6 @@ const Header = () => {
     <StyledMenu>
         <StyledWrapper>
             <ul className='appNav'>
-                <li><Link href={''}> <FontAwesomeIcon icon={faRecordVinyl} className='brand' beat/> </Link></li>
                 <li><Link href={''}>Home</Link></li>
                 <li><Link href={''}>About</Link></li>
                 <li><Link href={''}>Playlists</Link></li>
