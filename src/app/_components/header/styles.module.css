@@ -1,0 +1,70 @@
+.menu{
+    position: fixed;
+    z-index: 55;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: black;
+    box-shadow: 5px 0px 20px 1px white;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.appNav, .socialNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.appNav li, .socialNav li{
+    list-style: none;
+}
+
+.appNav li a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    padding: 0% 5px;
+}
+
+.appNav li a:hover {
+    color: white;
+    opacity: 1;
+    transform: translate(-3px, -3px);
+    text-shadow: 3px 3px 3px #ff71a2;
+}
+
+@media screen and (max-width: 600px) {
+    .menu a{
+        font-size: 1.5rem;
+    }
+}
+
+.navbar-toggler {
+    background-color: white;
+    opacity: 0.6;
+}
+
+.socialNav li a{
+    color: #ff71a2;
+    padding: 0px 15px;
+    transition: ease-in-out 0.3s;
+}
+
+.socialNav li a:hover{
+    color: white;
+}
+
+
