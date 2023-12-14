@@ -12,12 +12,11 @@ body {
 }
 
 :root{
-  --background: #37005c;
-  --primary: rgba(255, 255, 255, 0.06);
-  --secondary: #31b9b9;
-  --text: white;
-  --text-weight: lighter;
-  --about: rgba(255, 255, 255, .8);
+  --background: ;
+  --primary: ;
+  --secondary: ;
+  --text: ;
+  --text-weight: ;
 }
 
 .active-scroll-spy{
